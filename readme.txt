@@ -105,3 +105,23 @@ in the browser and Node.js.
 
 1. map object tells where to look for JavaScript files,
 2. packages object tells how to load when no filename is specified and no file extension is specified.
+
+
+The Angular CLI is available as a node package. First, we need to download and install it
+with the following command:
+
+$ npm install -g @angular/cli
+
+To generate the Angular project using CLI we can use the ng
+
+new project-name command.
+$ ng new first-ng-cli-project
+
+To run the
+application, we need to navigate to the project folder and run the ng serve command:
+
+$ cd first-ng-cli-project
+$ ng serve
+
+The ng serve command compiles and builds the project, and starts the local web server at
+http://localhost:4200 URL. 

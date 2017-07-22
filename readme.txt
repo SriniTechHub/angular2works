@@ -124,4 +124,30 @@ $ cd first-ng-cli-project
 $ ng serve
 
 The ng serve command compiles and builds the project, and starts the local web server at
-http://localhost:4200 URL. 
+http://localhost:4200 URL.
+
+Component:
+
+ ng g component my-new-component
+
+Directive:
+
+ ng g directive my-new-directive
+ 
+Pipe:
+
+ ng g pipe my-new-pipe
+ 
+Service:
+ 
+ ng g service my-new-service
+ 
+Module:
+ 
+ ng g module my-module
+
+Module with routing:
+
+ ng g module my-module --routing
+
+ 
